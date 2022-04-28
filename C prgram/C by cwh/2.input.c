@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+    int a, b;
+    printf("Enter the value of a\n");
+    scanf("%d", &a);        // %d is a format specifier
+
+    printf("Enter the value of b\n");
+    scanf("%d", &b);
+
+    printf("The sum of a and b %d", a+b);
+    return 0;
+}
